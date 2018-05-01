@@ -18,7 +18,7 @@
   <link href="styles.css" rel="stylesheet"></head>
   <body>
     <header><a class="logo" href="#"><img src="img/logo.png" alt="альтернативный текст"></a>
-      <div class="menu-header"><a href="#">наши курсы</a><a href="#">4 шага</a><a href="#">преподаватели</a><a href="#">отзывы</a><a href="#">вопросы</a></div>
+      <div class="menu-header"><a href="#our-cours">наши курсы</a><a href="#foursteps">4 шага</a><a href="#teachers">преподаватели</a><a href="#slider-container">отзывы</a><a href="#question">вопросы</a></div>
     </header>
     <div class="super-cours-container">
       <div class="flex-container">
@@ -35,7 +35,7 @@
       </div>
     </div>
     <h2>НАШИ КУРСЫ</h2>
-    <div class="cours-container">
+    <div class="cours-container" id="our-cours">
       <div class="cours">
         <div class="cours-card"><img src="img/nodejs.png">
           <div class="cours-card-price"><span class="card-price-text">цена курса:</span><br><span class="card-price">12 300 ₽</span></div>
@@ -46,7 +46,7 @@
           <p>Веб разработка считается одним из самых популярных направлений в сфере IT в последние годы. Одной из неотъемлемых частей веб разработки считается серверная разработваше ка. Вы будете заниматься разработкой серверной части приложений, обрабатывать запросы пользователей.<br><br>Изучи lingua latina в среде программистов.</p><img src="img/cours-memo-img1.png">
         </div>
       </div>
-      <div class="cours">
+      <div class="cours cours-revers">
         <div class="cours-memo"><span class="memo-number">02.</span>
           <h4>Разработчик Ruby</h4>
           <p>За последние годы Ruby и Rails приобрел невероятную популярность превратившись из малоизвестной технологии в один из основных инструментов веб разработчиков.<br><br>Ruby и Rails не случайно называют языком номер один для стартапов, поскольку данный язык позволяет повысить скорость разработки до двух раз!</p><img src="img/cours-memo-img2.png">
@@ -67,10 +67,10 @@
         </div>
       </div>
     </div>
-    <div class="foursteps-container">
+    <div class="foursteps-container" id="foursteps">
       <h2>4 шага к результату</h2><img class="fourStepImg" src="img/4steps.png">
     </div>
-    <div class="teachers">
+    <div class="teachers" id="teachers">
       <h2>Наши преподаватели</h2>
       <div class="teachers-container">
         <div class="teacher"><img src="img/teacher1.png"><br><span class="teacher-name">Иванова Мария</span><br>
@@ -126,7 +126,7 @@
         </div>
       </div>
     </div>
-    <div class="form-container">
+    <div class="form-container" id="question">
       <h2>вопросы</h2>
       <form>
         <p>За более подробной информацией оставьте свои контактные данные</p><br>
@@ -136,5 +136,19 @@
         <input type="submit">
       </form>
     </div>
+    <footer><img src="img/footerlogo.png">
+      <div class="footer-subscribe"><span class="subscribe">Подписывайтесь на нас</span>
+        <div class="socials"><a href="http://instagram.com"><img src="img/insta.png"></a><a href="http://vk.com"><img src="img/vk.png"></a><a href="http://google.com"><img src="img/google.png"></a><a href="http://telegram.com"><img src="img/telegram.png"></a></div><span class="subscribe-email">kategolubeva1995@gmail.com</span><br><span class="subscribe-phone">440 - 009</span>
+      </div>
+      <div class="footer-menu">
+        <ul>
+          <li><a href="#our-cours">наши курсы</a></li>
+          <li><a href="#foursteps">4 шага</a></li>
+          <li><a href="#teachers">преподаватели</a></li>
+          <li><a href="#slider-container">отзывы</a></li>
+          <li><a href="#question">вопросы</a></li>
+        </ul>
+      </div>
+    </footer>
   <script type="text/javascript" src="index.bundle.js"></script></body>
 </html>
